@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Паспорт</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.hse.ru/mirror/pubs/share/522215913">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <a href="index.html" class="logo-link">
+                <img src="https://www.hse.ru/mirror/pubs/share/522215913" alt="Логотип сайта">
+            </a>
+
+
+            <a href="index.html">Главная</a>
+            <a href="about.html">Информационная страница</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="passport.html" class="active">Паспорт</a>
+            <a href="zadacha.html">Задача</a>
+
+            <a href="index.html#info-block">К важной информации на главной</a>
+
+
+            <a href="https://physics.hse.ru/gpi/" target="_blank" rel="noopener noreferrer">
+                Внешний ресурс
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Паспортные данные</h1>
+
+        <table border="1" width="800">
+            <tr>
+                <td colspan="4" align="center">Российская Федерация</td>
+            </tr>
+            <tr>
+                <td colspan="3" height="60">
+                    Паспорт выдан:
+                    <span id="vydan"><u>Астраханским бла-бла-бла</u></span>
+                </td>
+                <td rowspan="6" width="35">123</td>
+            </tr>
+            <tr>
+                <td colspan="3" height="60"></td>
+            </tr>
+            <tr>
+                <td height="60">
+                    Дата выдачи:
+                    <span id="vydan_data">06.03.2020</span>
+                </td>
+                <td height="60" colspan="2">
+                    Код подразделения:
+                    <span id="code_pod">456-345</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right" height="60">
+                    Личный код:
+                    <span id="code_priv">123</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="left" height="60">
+                    Подпись сотрудника:
+                    <span id="sign_not_my"><img
+                            src="https://i.pinimg.com/736x/fc/5b/15/fc5b15fa7e3415faaf18319f375e6a77.jpg" width="50"
+                            height="50" alt="*картинка*"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" align="right" height="60">
+                    Личная подпись:
+                    <span id="sign_my"><img
+                            src="https://i.pinimg.com/736x/43/da/7d/43da7d45279d0f4c042a2bf2079f918b.jpg" width="50"
+                            height="50" alt="*картинка*"></span>
+                </td>
+            </tr>
+            <tr>
+
+                <td rowspan="8" align="center">
+                    <img src="../1-12/Images/me.jpg" width="420" height="540" alt="Фотография владельца">
+                </td>
+                <td colspan="2" height="60">
+                    Фамилия:
+                    <span id="surname">ШАЛАБАЕВ</span>
+                </td>
+                <td rowspan="8">124</td>
+            </tr>
+            <tr>
+                <td colspan="2" height="60"></td>
+            </tr>
+            <tr>
+                <td colspan="2" height="60">
+                    Имя:
+                    <span id="name">АЛЕКСЕЙ</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" height="60">
+                    Отчество:
+                    <span id="fathername">ТИМУРОВИЧ</span>
+                </td>
+            </tr>
+            <tr>
+                <td height="60">
+                    Пол:
+                    <span id="gender">МУЖ.</span>
+                </td>
+                <td height="60">
+                    Дата рождения:
+                    <span id="data">28.02.2006</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" height="60">
+                    Место рождения:
+                    <span id="birthplace">ГОР. АСТРАХАНЬ</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" height="60"></td>
+            </tr>
+            <tr>
+                <td colspan="2" height="60"></td>
+            </tr>
+        </table>
+    </main>
+    <p id="for_click"><b>Кликните здесь, чтобы изменить кириллицу на латиницу</b></p>
+</body>
+<script src="./js/change.js"></script>
+
+</html>

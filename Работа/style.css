@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+nav a.active {
+    color: #ffffff;
+    background-color: #0077ff;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+
+nav .logo-link img {
+    height: 32px;
+    vertical-align: middle;
+}
+
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.page-nav {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #eef5ff;
+    border-radius: 4px;
+}
+
+.page-nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #1b65b5;
+}
+
+
+:target {
+    scroll-margin-top: 80px;
+    background-color: #fff7d6;
+}
+
+
+ul,
+ol {
+    margin-left: 25px;
+}
+
+
+figure {
+    margin: 15px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+.thumb {
+    width: 100px;
+
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+
+.image-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-image: url("http://photos.wikimapia.org/p/00/02/24/10/23_big.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-table td,
+.image-table th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    vertical-align: top;
+}
+
+.image-table img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    text-indent: 2em;
+
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.hse.ru/mirror/pubs/share/522215913">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <a href="index.html" class="logo-link">
+                <img src="https://www.hse.ru/mirror/pubs/share/522215913" alt="Логотип сайта">
+            </a>
+
+
+            <a href="index.html">Главная</a>
+            <a href="about.html">Информационная страница</a>
+            <a href="contacts.html" class="active">Контакты</a>
+            <a href="passport.html">Паспорт</a>
+            <a href="zadacha.html">Задача</a>
+
+            <a href="index.html#info-block">К важной информации на главной</a>
+
+
+            <a href="https://physics.hse.ru/gpi/" target="_blank" rel="noopener noreferrer">
+                Внешний ресурс
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Контактные данные и формы</h1>
+        <p>Зполните формы, чтобы
+            бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла.
+        </p>
+
+
+        <span id="contact-form">
+            <h2>Форма для отправки контактных данных</h2>
+            <form action="https://www.google.com" method="get">
+                <p>
+                    <label>Фамилия:
+                        <input type="text" name="surname" required>
+                    </label>
+                </p>
+                <p>
+                    <label>Имя:
+                        <input type="text" name="name" required>
+                    </label>
+                </p>
+                <p>
+                    <label>Группа:
+                        <input type="text" name="group" required>
+                    </label>
+                </p>
+                <p>
+                    <label>Мобильный телефон:
+                        <input type="tel" name="mobile" placeholder="+7XXXXXXXXXX" required>
+                    </label>
+                </p>
+                <p>
+                    <label>Электронная почта:
+                        <input type="email" name="email" required>
+                    </label>
+                </p>
+                <p>
+                    <label>Дата отправки сообщения:
+                        <input type="date" name="send_date">
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" value="Отправить контактные данные">
+                </p>
+            </form>
+        </span>
+
+
+        <span id="data-form">
+            <h2>Форма для отправки данных по проекту</h2>
+            <form action="https://www.google.com" method="get">
+
+                <p>
+                    <label>Тема проекта:
+                        <input type="text" name="project_topic" value="Исследование оптических эффектов">
+                    </label>
+                </p>
+
+
+                <p>
+                    <label>Номер варианта задания:
+                        <input type="number" name="variant_number" value="1" min="1" max="99">
+                    </label>
+                </p>
+
+
+                <fieldset>
+                    <legend>Тип эксперимента</legend>
+                    <label>
+                        <input type="radio" name="experiment_type" value="optics" checked>
+                        Оптика
+                    </label>
+                    <label>
+                        <input type="radio" name="experiment_type" value="quantum">
+                        Квантовая физика
+                    </label>
+                    <label>
+                        <input type="radio" name="experiment_type" value="mechanics">
+                        Механика
+                    </label>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Условия</legend>
+                    <label>
+                        <input type="checkbox" name="need_equipment" value="yes" checked>
+                        Требуется лабораторное оборудование
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="publish_results" value="yes">
+                        Разрешаю публиковать результаты
+                    </label>
+                </fieldset>
+
+
+                <p>
+                    <label>Планируемая дата эксперимента:
+                        <input type="date" name="experiment_date" value="2025-01-15">
+                    </label>
+                </p>
+
+
+                <p>
+                    <label>Код доступа к установке:
+                        <input type="password" name="access_code" value="12345">
+                    </label>
+                </p>
+
+
+                <input type="hidden" name="project_id" value="physics_project_01">
+
+                <p>
+                    <input type="submit" value="Отправить данные проекта">
+                </p>
+            </form>
+        </span>
+    </main>
+</body>
+
+</html>

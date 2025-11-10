@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Задача</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.hse.ru/mirror/pubs/share/522215913">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <a href="index.html" class="logo-link">
+                <img src="https://www.hse.ru/mirror/pubs/share/522215913" alt="Логотип сайта">
+            </a>
+
+
+            <a href="index.html">Главная</a>
+            <a href="about.html">Информационная страница</a>
+
+            <a href="contacts.html">Контакты</a>
+            <a href="passport.html">Паспорт</a>
+            <a href="zadacha.html" class="active">Задача</a>
+
+            <a href="index.html#info-block">К важной информации на главной</a>
+
+
+            <a href="https://physics.hse.ru/gpi/" target="_blank" rel="noopener noreferrer">
+                Внешний ресурс
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Решение алгоритмической задачи</h1>
+
+
+
+
+
+        <h3>Решение задачи</h3>
+        <p name="formulation">
+            Имеются две ёмкости: кубическая с ребром A, цилиндрическая с высотой H и радиусом основания R.
+            Определить, можно ли заполнить жидкостью объёма M первую ёмкость, вторую, обе.
+        </p>
+
+        <form action="https://www.google.com/search" id="UserEnter" name="UserEnter" target="_blank">
+            <ul>
+                <li>Для поисковика:
+                    <input name="q" value="search">
+                </li>
+                <li>Формулировка задачи:
+                    <br>
+                    <textarea cols="60" rows="4" id="task" name="formulation">
+Имеются две ёмкости: кубическая с ребром A, цилиндрическая с высотой H и радиусом основания R. Определить, можно ли заполнить жидкостью объёма M первую ёмкость, вторую, обе.
+                            </textarea>
+                </li>
+                <li>A: <input id="A" name="A" type="number"></li>
+                <li>H: <input id="H" name="H" type="number"></li>
+                <li>R: <input id="R" name="R" type="number"></li>
+                <li>M: <input id="M" name="M" type="number"></li>
+                <li>Результат решения задачи:
+                    <input id="result" name="result" value="не определен" size="40">
+                </li>
+                <li>Действие 1:
+                    <input id="verify" type="button" value="Проверить">
+                </li>
+            </ul>
+        </form>
+
+    </main>
+
+
+    <script src="js/zadacha.js"></script>
+</body>
+
+</html>
